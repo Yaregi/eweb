@@ -18,25 +18,21 @@
 
 }
 
-#wrap .logo {
-    position: absolute;
-    top: .7%;
-    left: 2.8%;
-}
-
-#wrap #main .part1 {
-    position: absolute;
-    top: 9%;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-
 #wrap .tree {
     position: absolute;
-    top: 1%;
+    top: 2.4%;
     left: 38%;
+    animation: tree 1.5s 1.2s ease both;
+}
 
+@keyframes tree {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #wrap .oh {
